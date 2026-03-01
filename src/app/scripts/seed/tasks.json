@@ -1,0 +1,137 @@
+[
+  {
+    "pl": "Zadaj pytanie: Gdzie jest najbliższy basen?",
+    "tokens": [
+      { "pl": "Gdzie", "en": "Where", "phon": "Łer" },
+      { "pl": "jest", "en": "is", "phon": "iz" },
+      { "pl": "najbliższy", "en": "the nearest", "phon": "de niaryst" },
+      { "pl": "basen", "en": "pool", "phon": "pul" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Where is the nearest pool?",
+    "answerPhon": "Łer iz de niaryst pul?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest mój hotel?",
+    "tokens": [
+      { "pl": "Gdzie", "en": "Where", "phon": "Łer" },
+      { "pl": "jest", "en": "is", "phon": "iz" },
+      { "pl": "mój", "en": "my", "phon": "maj" },
+      { "pl": "hotel", "en": "hotel", "phon": "hołtel" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Where is my hotel?",
+    "answerPhon": "Łer iz maj hołtel?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest toaleta?",
+    "tokens": [
+      { "pl": "Gdzie", "en": "Where", "phon": "Łer" },
+      { "pl": "jest", "en": "is", "phon": "iz" },
+      { "pl": "toaleta", "en": "the toilet", "phon": "de tojlet" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Where is the toilet?",
+    "answerPhon": "Łer iz de tojlet?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest tutaj restauracja?",
+    "tokens": [
+      { "pl": "Czy jest", "en": "Is there", "phon": "Iz der" },
+      { "pl": "tutaj", "en": "here", "phon": "hir" },
+      { "pl": "restauracja", "en": "a restaurant", "phon": "e restorant" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Is there a restaurant here?",
+    "answerPhon": "Iz der e restorant hir?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet na pociąg?",
+    "tokens": [
+      { "pl": "Ile kosztuje", "en": "How much is", "phon": "Hał macz iz" },
+      { "pl": "bilet", "en": "a ticket", "phon": "e tiket" },
+      { "pl": "na", "en": "for", "phon": "for" },
+      { "pl": "pociąg", "en": "the train", "phon": "de trejn" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "How much is a ticket for the train?",
+    "answerPhon": "Hał macz iz e tiket for de trejn?",
+    "category": "transport",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Dla kogo są zniżki na pociąg?",
+    "tokens": [
+      { "pl": "Dla kogo", "en": "For whom", "phon": "For hum" },
+      { "pl": "są", "en": "are", "phon": "ar" },
+      { "pl": "zniżki", "en": "discounts", "phon": "diskounts" },
+      { "pl": "na", "en": "for", "phon": "for" },
+      { "pl": "pociąg", "en": "the train", "phon": "de trejn" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "For whom are discounts for the train?",
+    "answerPhon": "For hum ar diskounts for de trejn?",
+    "category": "transport",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Czy są zniżki dla studentów?",
+    "tokens": [
+      { "pl": "Czy są", "en": "Are there", "phon": "Ar der" },
+      { "pl": "zniżki", "en": "discounts", "phon": "diskounts" },
+      { "pl": "dla studentów", "en": "for students", "phon": "for stjudents" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Are there discounts for students?",
+    "answerPhon": "Ar der diskounts for stjudents?",
+    "category": "money",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czym tam pojedziemy?",
+    "tokens": [
+      { "pl": "Czym", "en": "How", "phon": "Hał" },
+      { "pl": "tam", "en": "will we", "phon": "łil łi" },
+      { "pl": "pojedziemy", "en": "get there", "phon": "get der" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "How will we get there?",
+    "answerPhon": "Hał łil łi get der?",
+    "category": "transport",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy to jest mój pokój?",
+    "tokens": [
+      { "pl": "Czy to", "en": "Is this", "phon": "Iz dis" },
+      { "pl": "mój", "en": "my", "phon": "maj" },
+      { "pl": "pokój", "en": "room", "phon": "rum" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Is this my room?",
+    "answerPhon": "Iz dis maj rum?",
+    "category": "hotel",
+    "level": 1
+  },
+  {
+    "pl": "Ułóż zdanie: Przepraszam, czy możesz mi pomóc?",
+    "tokens": [
+      { "pl": "Przepraszam", "en": "Excuse me", "phon": "ikskju:z mi" },
+      { "pl": "czy możesz", "en": "can you", "phon": "ken ju" },
+      { "pl": "mi pomóc", "en": "help me", "phon": "help mi" },
+      { "pl": "?", "en": "?", "phon": "" }
+    ],
+    "answerEn": "Excuse me, can you help me?",
+    "answerPhon": "Ikskju:z mi, ken ju help mi?",
+    "category": "phrases",
+    "level": 2
+  }
+]

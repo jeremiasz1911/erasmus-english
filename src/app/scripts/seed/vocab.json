@@ -1,0 +1,72 @@
+[
+  { "pl": "basen", "en": "pool", "phon": "pul", "category": "travel", "tags": ["hotel", "free time"] },
+  { "pl": "hotel", "en": "hotel", "phon": "hołtel", "category": "travel", "tags": ["accommodation"] },
+  { "pl": "restauracja", "en": "restaurant", "phon": "restorant", "category": "food", "tags": ["eat"] },
+  { "pl": "jedzenie", "en": "food", "phon": "fud", "category": "food", "tags": ["eat"] },
+  { "pl": "pieniądze", "en": "money", "phon": "mani", "category": "money", "tags": ["pay"] },
+  { "pl": "bilet", "en": "ticket", "phon": "tiket", "category": "transport", "tags": ["train", "bus"] },
+  { "pl": "pociąg", "en": "train", "phon": "trejn", "category": "transport", "tags": ["travel"] },
+  { "pl": "autobus", "en": "bus", "phon": "bas", "category": "transport", "tags": ["travel"] },
+  { "pl": "samochód", "en": "car", "phon": "kar", "category": "transport", "tags": ["travel"] },
+  { "pl": "lotnisko", "en": "airport", "phon": "erport", "category": "travel", "tags": ["flight"] },
+
+  { "pl": "gdzie", "en": "where", "phon": "łer", "category": "grammar", "tags": ["question"] },
+  { "pl": "co", "en": "what", "phon": "łot", "category": "grammar", "tags": ["question"] },
+  { "pl": "który", "en": "which", "phon": "łicz", "category": "grammar", "tags": ["question"] },
+  { "pl": "kto", "en": "who", "phon": "hu", "category": "grammar", "tags": ["question"] },
+  { "pl": "kiedy", "en": "when", "phon": "łen", "category": "grammar", "tags": ["question"] },
+  { "pl": "dlaczego", "en": "why", "phon": "łaj", "category": "grammar", "tags": ["question"] },
+  { "pl": "jak", "en": "how", "phon": "hał", "category": "grammar", "tags": ["question"] },
+  { "pl": "ile kosztuje", "en": "how much is it", "phon": "hał macz iz it", "category": "money", "tags": ["price"] },
+
+  { "pl": "jest", "en": "is", "phon": "iz", "category": "grammar", "tags": ["verb"] },
+  { "pl": "są", "en": "are", "phon": "ar", "category": "grammar", "tags": ["verb"] },
+  { "pl": "czy jest", "en": "is there", "phon": "iz der", "category": "grammar", "tags": ["question"] },
+  { "pl": "czy są", "en": "are there", "phon": "ar der", "category": "grammar", "tags": ["question"] },
+
+  { "pl": "ja", "en": "I", "phon": "aj", "category": "pronouns", "tags": ["person"] },
+  { "pl": "ty", "en": "you", "phon": "ju", "category": "pronouns", "tags": ["person"] },
+  { "pl": "on", "en": "he", "phon": "hi", "category": "pronouns", "tags": ["person"] },
+  { "pl": "ona", "en": "she", "phon": "szi", "category": "pronouns", "tags": ["person"] },
+  { "pl": "ono", "en": "it", "phon": "it", "category": "pronouns", "tags": ["person"] },
+  { "pl": "my", "en": "we", "phon": "łi", "category": "pronouns", "tags": ["person"] },
+  { "pl": "wy", "en": "you", "phon": "ju", "category": "pronouns", "tags": ["person"] },
+  { "pl": "oni/one", "en": "they", "phon": "dej", "category": "pronouns", "tags": ["person"] },
+
+  { "pl": "mój", "en": "my", "phon": "maj", "category": "pronouns", "tags": ["possessive"] },
+  { "pl": "twój", "en": "your", "phon": "jor", "category": "pronouns", "tags": ["possessive"] },
+  { "pl": "jego", "en": "his", "phon": "hiz", "category": "pronouns", "tags": ["possessive"] },
+  { "pl": "jej", "en": "her", "phon": "her", "category": "pronouns", "tags": ["possessive"] },
+  { "pl": "nasz", "en": "our", "phon": "ałer", "category": "pronouns", "tags": ["possessive"] },
+  { "pl": "ich", "en": "their", "phon": "der", "category": "pronouns", "tags": ["possessive"] },
+
+  { "pl": "proszę", "en": "please", "phon": "pliz", "category": "phrases", "tags": ["polite"] },
+  { "pl": "przepraszam", "en": "excuse me", "phon": "ikskju:z mi", "category": "phrases", "tags": ["polite"] },
+  { "pl": "dziękuję", "en": "thank you", "phon": "fenk ju", "category": "phrases", "tags": ["polite"] },
+  { "pl": "tak", "en": "yes", "phon": "jes", "category": "phrases", "tags": ["basic"] },
+  { "pl": "nie", "en": "no", "phon": "noł", "category": "phrases", "tags": ["basic"] },
+
+  { "pl": "pomoc", "en": "help", "phon": "help", "category": "phrases", "tags": ["emergency"] },
+  { "pl": "zgubiłem", "en": "I lost", "phon": "aj lost", "category": "phrases", "tags": ["problem"] },
+  { "pl": "nie rozumiem", "en": "I don't understand", "phon": "aj dont anderstend", "category": "phrases", "tags": ["problem"] },
+
+  { "pl": "toaleta", "en": "toilet", "phon": "tojlet", "category": "travel", "tags": ["bathroom"] },
+  { "pl": "łazienka", "en": "bathroom", "phon": "bafrum", "category": "travel", "tags": ["bathroom"] },
+  { "pl": "pokój", "en": "room", "phon": "rum", "category": "travel", "tags": ["hotel"] },
+  { "pl": "klucz", "en": "key", "phon": "ki", "category": "travel", "tags": ["hotel"] },
+  { "pl": "ręcznik", "en": "towel", "phon": "tałel", "category": "travel", "tags": ["hotel"] },
+
+  { "pl": "woda", "en": "water", "phon": "łoter", "category": "food", "tags": ["drink"] },
+  { "pl": "szklanka", "en": "glass", "phon": "gلاس", "category": "food", "tags": ["drink"] },
+  { "pl": "chciałbym", "en": "I'd like", "phon": "ajd lajk", "category": "phrases", "tags": ["restaurant"] },
+  { "pl": "poproszę wodę", "en": "I'd like a glass of water", "phon": "ajd lajk e glas ew łoter", "category": "phrases", "tags": ["restaurant"] },
+
+  { "pl": "zniżki", "en": "discounts", "phon": "diskounts", "category": "money", "tags": ["train"] },
+  { "pl": "dla studentów", "en": "for students", "phon": "for stjudents", "category": "travel", "tags": ["discount"] },
+  { "pl": "dla kogo", "en": "for whom", "phon": "for hum", "category": "grammar", "tags": ["question"] },
+
+  { "pl": "pojedziemy", "en": "will we go", "phon": "łil łi goł", "category": "transport", "tags": ["future"] },
+  { "pl": "czym", "en": "by what", "phon": "baj łot", "category": "grammar", "tags": ["question"] },
+  { "pl": "autobusem", "en": "by bus", "phon": "baj bas", "category": "transport", "tags": ["travel"] },
+  { "pl": "pociągiem", "en": "by train", "phon": "baj trejn", "category": "transport", "tags": ["travel"] }
+]
