@@ -1,137 +1,3499 @@
 [
   {
-    "pl": "Zadaj pytanie: Gdzie jest najbliższy basen?",
+    "pl": "Zadaj pytanie: Jak dojdę do muzeum z hotelu",
     "tokens": [
-      { "pl": "Gdzie", "en": "Where", "phon": "Łer" },
-      { "pl": "jest", "en": "is", "phon": "iz" },
-      { "pl": "najbliższy", "en": "the nearest", "phon": "de niaryst" },
-      { "pl": "basen", "en": "pool", "phon": "pul" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Jak dojdę",
+        "en": "How do I get",
+        "phon": "hał du aj get",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "to the museum",
+        "phon": "tu de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "z hotelu",
+        "en": "from the hotel",
+        "phon": "from de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "Where is the nearest pool?",
-    "answerPhon": "Łer iz de niaryst pul?",
-    "category": "travel",
-    "level": 1
+    "answerEn": "How do I get to the museum from the hotel?",
+    "answerPhon": "hał du aj get tu de mjuzijem from de hołtel?",
+    "category": "directions",
+    "level": 2
   },
   {
-    "pl": "Zadaj pytanie: Gdzie jest mój hotel?",
+    "pl": "Zadaj pytanie: Gdzie jest restauracja",
     "tokens": [
-      { "pl": "Gdzie", "en": "Where", "phon": "Łer" },
-      { "pl": "jest", "en": "is", "phon": "iz" },
-      { "pl": "mój", "en": "my", "phon": "maj" },
-      { "pl": "hotel", "en": "hotel", "phon": "hołtel" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "restauracja",
+        "en": "the restaurant",
+        "phon": "de restorant",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "Where is my hotel?",
-    "answerPhon": "Łer iz maj hołtel?",
-    "category": "travel",
-    "level": 1
-  },
-  {
-    "pl": "Zadaj pytanie: Gdzie jest toaleta?",
-    "tokens": [
-      { "pl": "Gdzie", "en": "Where", "phon": "Łer" },
-      { "pl": "jest", "en": "is", "phon": "iz" },
-      { "pl": "toaleta", "en": "the toilet", "phon": "de tojlet" },
-      { "pl": "?", "en": "?", "phon": "" }
-    ],
-    "answerEn": "Where is the toilet?",
-    "answerPhon": "Łer iz de tojlet?",
-    "category": "travel",
-    "level": 1
-  },
-  {
-    "pl": "Zadaj pytanie: Czy jest tutaj restauracja?",
-    "tokens": [
-      { "pl": "Czy jest", "en": "Is there", "phon": "Iz der" },
-      { "pl": "tutaj", "en": "here", "phon": "hir" },
-      { "pl": "restauracja", "en": "a restaurant", "phon": "e restorant" },
-      { "pl": "?", "en": "?", "phon": "" }
-    ],
-    "answerEn": "Is there a restaurant here?",
-    "answerPhon": "Iz der e restorant hir?",
+    "answerEn": "Where is the restaurant?",
+    "answerPhon": "łer iz de restorant?",
     "category": "food",
     "level": 1
   },
   {
-    "pl": "Zadaj pytanie: Ile kosztuje bilet na pociąg?",
+    "pl": "Zadaj pytanie: Czy mogę prosić sok",
     "tokens": [
-      { "pl": "Ile kosztuje", "en": "How much is", "phon": "Hał macz iz" },
-      { "pl": "bilet", "en": "a ticket", "phon": "e tiket" },
-      { "pl": "na", "en": "for", "phon": "for" },
-      { "pl": "pociąg", "en": "the train", "phon": "de trejn" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "sok",
+        "en": "a juice",
+        "phon": "e dżus",
+        "category": "food",
+        "tags": [
+          "drink"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "How much is a ticket for the train?",
-    "answerPhon": "Hał macz iz e tiket for de trejn?",
-    "category": "transport",
+    "answerEn": "Can I have a juice please?",
+    "answerPhon": "ken aj hav e dżus pliz?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy woda z kranu jest darmowa",
+    "tokens": [
+      {
+        "pl": "Czy",
+        "en": "Is",
+        "phon": "iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "woda z kranu",
+        "en": "tap water",
+        "phon": "tap łoter",
+        "category": "food",
+        "tags": [
+          "drink"
+        ]
+      },
+      {
+        "pl": "darmowa",
+        "en": "free",
+        "phon": "fri",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is tap water free?",
+    "answerPhon": "iz tap łoter fri?",
+    "category": "food",
     "level": 2
   },
   {
-    "pl": "Zadaj pytanie: Dla kogo są zniżki na pociąg?",
+    "pl": "Zadaj pytanie: Gdzie mogę kupić bilet autobusowy",
     "tokens": [
-      { "pl": "Dla kogo", "en": "For whom", "phon": "For hum" },
-      { "pl": "są", "en": "are", "phon": "ar" },
-      { "pl": "zniżki", "en": "discounts", "phon": "diskounts" },
-      { "pl": "na", "en": "for", "phon": "for" },
-      { "pl": "pociąg", "en": "the train", "phon": "de trejn" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "gdzie mogę kupić",
+        "en": "where can I buy",
+        "phon": "łer ken aj baj",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "bilet autobusowy",
+        "en": "a bus ticket",
+        "phon": "e bas tiket",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "For whom are discounts for the train?",
-    "answerPhon": "For hum ar diskounts for de trejn?",
+    "answerEn": "Where is where can I buy a bus ticket?",
+    "answerPhon": "łer iz łer ken aj baj e bas tiket?",
     "category": "transport",
     "level": 3
   },
   {
-    "pl": "Zadaj pytanie: Czy są zniżki dla studentów?",
+    "pl": "Zadaj pytanie: Czy mogę prosić wodę",
     "tokens": [
-      { "pl": "Czy są", "en": "Are there", "phon": "Ar der" },
-      { "pl": "zniżki", "en": "discounts", "phon": "diskounts" },
-      { "pl": "dla studentów", "en": "for students", "phon": "for stjudents" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "wodę",
+        "en": "water",
+        "phon": "łoter",
+        "category": "food",
+        "tags": [
+          "drink"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "Are there discounts for students?",
-    "answerPhon": "Ar der diskounts for stjudents?",
-    "category": "money",
+    "answerEn": "Can I have water please?",
+    "answerPhon": "ken aj hav łoter pliz?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy autobus jest płatny",
+    "tokens": [
+      {
+        "pl": "Czy",
+        "en": "Is",
+        "phon": "iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "autobus",
+        "en": "the bus",
+        "phon": "de bas",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "płatny",
+        "en": "paid",
+        "phon": "pejd",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is the bus paid?",
+    "answerPhon": "iz de bas pejd?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest zniżka studencka do muzeum",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "zniżka studencka",
+        "en": "a student discount",
+        "phon": "e stjudent diskount",
+        "category": "money",
+        "tags": [
+          "discount"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "for the museum",
+        "phon": "for de mjuzijem",
+        "category": "money",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there a student discount for the museum?",
+    "answerPhon": "iz der e stjudent diskount for de mjuzijem?",
+    "category": "museum",
     "level": 2
   },
   {
-    "pl": "Zadaj pytanie: Czym tam pojedziemy?",
+    "pl": "Zadaj pytanie: Czy jest apteka blisko hotelu",
     "tokens": [
-      { "pl": "Czym", "en": "How", "phon": "Hał" },
-      { "pl": "tam", "en": "will we", "phon": "łil łi" },
-      { "pl": "pojedziemy", "en": "get there", "phon": "get der" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "apteka",
+        "en": "a pharmacy",
+        "phon": "e farmasy",
+        "category": "travel",
+        "tags": [
+          "pharmacy"
+        ]
+      },
+      {
+        "pl": "blisko hotelu",
+        "en": "near the hotel",
+        "phon": "niar de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "How will we get there?",
-    "answerPhon": "Hał łil łi get der?",
+    "answerEn": "Is there a pharmacy near the hotel?",
+    "answerPhon": "iz der e farmasy niar de hołtel?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy ten autobus jedzie do muzeum",
+    "tokens": [
+      {
+        "pl": "Czy ten",
+        "en": "Does this",
+        "phon": "daz dis",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "autobus",
+        "en": "the bus",
+        "phon": "de bas",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "jedzie",
+        "en": "go",
+        "phon": "goł",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "to the museum",
+        "phon": "tu de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Does this the bus go to the museum?",
+    "answerPhon": "daz dis de bas goł tu de mjuzijem?",
     "category": "transport",
     "level": 2
   },
   {
-    "pl": "Zadaj pytanie: Czy to jest mój pokój?",
+    "pl": "Zadaj pytanie: Czy mogę robić zdjęcia w muzeum",
     "tokens": [
-      { "pl": "Czy to", "en": "Is this", "phon": "Iz dis" },
-      { "pl": "mój", "en": "my", "phon": "maj" },
-      { "pl": "pokój", "en": "room", "phon": "rum" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Czy mogę",
+        "en": "Can I",
+        "phon": "ken aj",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "robić zdjęcia",
+        "en": "take photos",
+        "phon": "tejk fołtos",
+        "category": "museum",
+        "tags": [
+          "rules"
+        ]
+      },
+      {
+        "pl": "w muzeum",
+        "en": "in the museum",
+        "phon": "in de mjuzijem",
+        "category": "museum",
+        "tags": [
+          "rules"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "Is this my room?",
-    "answerPhon": "Iz dis maj rum?",
+    "answerEn": "Can I take photos in the museum?",
+    "answerPhon": "ken aj tejk fołtos in de mjuzijem?",
+    "category": "museum",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Jaka jest najkrótsza trasa z hotelu do muzeum",
+    "tokens": [
+      {
+        "pl": "Jaka jest",
+        "en": "What is",
+        "phon": "łot iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "najkrótsza trasa",
+        "en": "the shortest route",
+        "phon": "de szortest rut",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "z hotelu",
+        "en": "from the hotel",
+        "phon": "from de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "to the museum",
+        "phon": "tu de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "What is the shortest route from the hotel to the museum?",
+    "answerPhon": "łot iz de szortest rut from de hołtel tu de mjuzijem?",
+    "category": "directions",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę prosić herbatę",
+    "tokens": [
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "herbatę",
+        "en": "a tea",
+        "phon": "e ti",
+        "category": "food",
+        "tags": [
+          "drink"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I have a tea please?",
+    "answerPhon": "ken aj hav e ti pliz?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę zobaczyć menu",
+    "tokens": [
+      {
+        "pl": "Czy mogę",
+        "en": "Can I",
+        "phon": "ken aj",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "zobaczyć",
+        "en": "see",
+        "phon": "si",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "menu",
+        "en": "the menu",
+        "phon": "de menu",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I see the menu?",
+    "answerPhon": "ken aj si de menu?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest wycieczka z przewodnikiem po angielsku",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "wycieczka z przewodnikiem",
+        "en": "a guided tour",
+        "phon": "e gajdid tur",
+        "category": "travel",
+        "tags": [
+          "tour"
+        ]
+      },
+      {
+        "pl": "po angielsku",
+        "en": "in English",
+        "phon": "in inglisz",
+        "category": "travel",
+        "tags": [
+          "language"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there a guided tour in English?",
+    "answerPhon": "iz der e gajdid tur in inglisz?",
+    "category": "travel",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest muzeum",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "muzeum",
+        "en": "the museum",
+        "phon": "de mjuzijem",
+        "category": "museum",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is the museum?",
+    "answerPhon": "łer iz de mjuzijem?",
+    "category": "museum",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest dworzec blisko hotelu",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "dworzec",
+        "en": "a train station",
+        "phon": "de trejn stejszyn",
+        "category": "transport",
+        "tags": [
+          "station"
+        ]
+      },
+      {
+        "pl": "blisko hotelu",
+        "en": "near the hotel",
+        "phon": "niar de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there a train station near the hotel?",
+    "answerPhon": "iz der de trejn stejszyn niar de hołtel?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy możesz mi pokazać trasę na mapie",
+    "tokens": [
+      {
+        "pl": "Czy mógłbyś",
+        "en": "Could you",
+        "phon": "kud ju",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "pokazać mi trasę",
+        "en": "show me the way",
+        "phon": "szoł mi de łej",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "na mapie",
+        "en": "on the map",
+        "phon": "on de map",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Could you show me the way on the map?",
+    "answerPhon": "kud ju szoł mi de łej on de map?",
+    "category": "directions",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest centrum",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "centrum",
+        "en": "the city centre",
+        "phon": "de siti senta",
+        "category": "travel",
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is the city centre?",
+    "answerPhon": "łer iz de siti senta?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet autobusowy",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet autobusowy",
+        "en": "a bus ticket",
+        "phon": "e bas tiket",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a bus ticket?",
+    "answerPhon": "hał macz iz e bas tiket?",
+    "category": "transport",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Jak dojdę do dworzec",
+    "tokens": [
+      {
+        "pl": "Jak dojdę",
+        "en": "How do I get",
+        "phon": "hał du aj get",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "do dworzec",
+        "en": "to the train station",
+        "phon": "tu de trejn stejszyn",
+        "category": "transport",
+        "tags": [
+          "station"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How do I get to the train station?",
+    "answerPhon": "hał du aj get tu de trejn stejszyn?",
+    "category": "directions",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest hotel",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "hotel",
+        "en": "the hotel",
+        "phon": "de hołtel",
+        "category": "hotel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is the hotel?",
+    "answerPhon": "łer iz de hołtel?",
     "category": "hotel",
     "level": 1
   },
   {
-    "pl": "Ułóż zdanie: Przepraszam, czy możesz mi pomóc?",
+    "pl": "Zadaj pytanie: Gdzie jest najbliższa apteka",
     "tokens": [
-      { "pl": "Przepraszam", "en": "Excuse me", "phon": "ikskju:z mi" },
-      { "pl": "czy możesz", "en": "can you", "phon": "ken ju" },
-      { "pl": "mi pomóc", "en": "help me", "phon": "help mi" },
-      { "pl": "?", "en": "?", "phon": "" }
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "najbliższa apteka",
+        "en": "the nearest pharmacy",
+        "phon": "de niaryst farmasy",
+        "category": "travel",
+        "tags": [
+          "health"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
     ],
-    "answerEn": "Excuse me, can you help me?",
-    "answerPhon": "Ikskju:z mi, ken ju help mi?",
-    "category": "phrases",
+    "answerEn": "Where is the nearest pharmacy?",
+    "answerPhon": "łer iz de niaryst farmasy?",
+    "category": "travel",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest restauracja blisko hotelu",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "restauracja",
+        "en": "a restaurant",
+        "phon": "de restorant",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "blisko hotelu",
+        "en": "near the hotel",
+        "phon": "niar de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there a restaurant near the hotel?",
+    "answerPhon": "iz der de restorant niar de hołtel?",
+    "category": "travel",
     "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: O której zamyka się muzeum",
+    "tokens": [
+      {
+        "pl": "O której",
+        "en": "What time does",
+        "phon": "łot tajm daz",
+        "category": "travel",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "pl": "muzeum",
+        "en": "the museum",
+        "phon": "de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "zamyka się",
+        "en": "close",
+        "phon": "klołz",
+        "category": "travel",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "What time does the museum close?",
+    "answerPhon": "łot tajm daz de mjuzijem klołz?",
+    "category": "museum",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy to jest właściwy autobus do centrum",
+    "tokens": [
+      {
+        "pl": "Czy to",
+        "en": "Is this",
+        "phon": "iz dis",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "właściwy autobus",
+        "en": "the right bus",
+        "phon": "de rajt bas",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "do centrum",
+        "en": "to the city centre",
+        "phon": "tu de siti senta",
+        "category": "travel",
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is this the right bus to the city centre?",
+    "answerPhon": "iz dis de rajt bas tu de siti senta?",
+    "category": "transport",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy potrzebuję rezerwacji do muzeum",
+    "tokens": [
+      {
+        "pl": "Czy potrzebuję",
+        "en": "Do I need",
+        "phon": "du aj nid",
+        "category": "travel",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "rezerwacji",
+        "en": "a reservation",
+        "phon": "e rezarwejszyn",
+        "category": "travel",
+        "tags": [
+          "booking"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "for the museum",
+        "phon": "for de mjuzijem",
+        "category": "museum",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Do I need a reservation for the museum?",
+    "answerPhon": "du aj nid e rezarwejszyn for de mjuzijem?",
+    "category": "museum",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest centrum blisko hotelu",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "centrum",
+        "en": "a city centre",
+        "phon": "de siti senta",
+        "category": "travel",
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "pl": "blisko hotelu",
+        "en": "near the hotel",
+        "phon": "niar de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there a city centre near the hotel?",
+    "answerPhon": "iz der de siti senta niar de hołtel?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy macie przystawki",
+    "tokens": [
+      {
+        "pl": "Czy macie",
+        "en": "Do you have",
+        "phon": "du ju hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "przystawki",
+        "en": "starters",
+        "phon": "starterz",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Do you have starters?",
+    "answerPhon": "du ju hav starterz?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę zapłacić gotówką",
+    "tokens": [
+      {
+        "pl": "Czy mogę",
+        "en": "Can I",
+        "phon": "ken aj",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "zapłacić gotówką",
+        "en": "pay in cash",
+        "phon": "pej in kesz",
+        "category": "money",
+        "tags": [
+          "payment"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I pay in cash?",
+    "answerPhon": "ken aj pej in kesz?",
+    "category": "money",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Jak dojdę do centrum",
+    "tokens": [
+      {
+        "pl": "Jak dojdę",
+        "en": "How do I get",
+        "phon": "hał du aj get",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "do centrum",
+        "en": "to the city centre",
+        "phon": "tu de siti senta",
+        "category": "travel",
+        "tags": [
+          "city"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How do I get to the city centre?",
+    "answerPhon": "hał du aj get tu de siti senta?",
+    "category": "directions",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: O której otwiera się muzeum",
+    "tokens": [
+      {
+        "pl": "O której",
+        "en": "What time does",
+        "phon": "łot tajm daz",
+        "category": "travel",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "pl": "muzeum",
+        "en": "the museum",
+        "phon": "de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "otwiera się",
+        "en": "open",
+        "phon": "ołpen",
+        "category": "travel",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "What time does the museum open?",
+    "answerPhon": "łot tajm daz de mjuzijem ołpen?",
+    "category": "museum",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę dostać mapę miasta",
+    "tokens": [
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "mapę miasta",
+        "en": "a city map",
+        "phon": "e siti map",
+        "category": "travel",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I have a city map please?",
+    "answerPhon": "ken aj hav e siti map pliz?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest bankomat",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "bankomat",
+        "en": "an ATM",
+        "phon": "en ej-ti-em",
+        "category": "money",
+        "tags": [
+          "cash"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is an ATM?",
+    "answerPhon": "łer iz en ej-ti-em?",
+    "category": "money",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest dworzec",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "dworzec",
+        "en": "the train station",
+        "phon": "de trejn stejszyn",
+        "category": "transport",
+        "tags": [
+          "station"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is the train station?",
+    "answerPhon": "łer iz de trejn stejszyn?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest apteka",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "apteka",
+        "en": "a pharmacy",
+        "phon": "e farmasy",
+        "category": "travel",
+        "tags": [
+          "pharmacy"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is a pharmacy?",
+    "answerPhon": "łer iz e farmasy?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest toaleta",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "toaleta",
+        "en": "the toilet",
+        "phon": "de tojlet",
+        "category": "travel",
+        "tags": [
+          "bathroom"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is the toilet?",
+    "answerPhon": "łer iz de tojlet?",
+    "category": "hotel",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest muzeum blisko hotelu",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "muzeum",
+        "en": "a museum",
+        "phon": "de mjuzijem",
+        "category": "museum",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "blisko hotelu",
+        "en": "near the hotel",
+        "phon": "niar de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there a museum near the hotel?",
+    "answerPhon": "iz der de mjuzijem niar de hołtel?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę prosić szklankę wody",
+    "tokens": [
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "szklankę wody",
+        "en": "a glass of water",
+        "phon": "e glas ew łoter",
+        "category": "food",
+        "tags": [
+          "drink"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I have a glass of water please?",
+    "answerPhon": "ken aj hav e glas ew łoter pliz?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę prosić o rachunek",
+    "tokens": [
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "rachunek",
+        "en": "the bill",
+        "phon": "de bil",
+        "category": "money",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I have the bill please?",
+    "answerPhon": "ken aj hav de bil pliz?",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę prosić kawę",
+    "tokens": [
+      {
+        "pl": "Czy mogę prosić",
+        "en": "Can I have",
+        "phon": "ken aj hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "kawę",
+        "en": "a coffee",
+        "phon": "e kofi",
+        "category": "food",
+        "tags": [
+          "drink"
+        ]
+      },
+      {
+        "pl": "Proszę",
+        "en": "please",
+        "phon": "pliz",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I have a coffee please?",
+    "answerPhon": "ken aj hav e kofi pliz?",
+    "category": "food",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy jest Wi-Fi w hotelu",
+    "tokens": [
+      {
+        "pl": "Czy jest",
+        "en": "Is there",
+        "phon": "iz der",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "Wi-Fi",
+        "en": "Wi-Fi",
+        "phon": "łaj faj",
+        "category": "hotel",
+        "tags": [
+          "wifi"
+        ]
+      },
+      {
+        "pl": "w hotelu",
+        "en": "in the hotel",
+        "phon": "in de hołtel",
+        "category": "hotel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is there Wi-Fi in the hotel?",
+    "answerPhon": "iz der łaj faj in de hołtel?",
+    "category": "hotel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Gdzie jest przystanek autobusowy",
+    "tokens": [
+      {
+        "pl": "Gdzie jest",
+        "en": "Where is",
+        "phon": "łer iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "przystanek autobusowy",
+        "en": "the bus stop",
+        "phon": "de bas stop",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Where is the bus stop?",
+    "answerPhon": "łer iz de bas stop?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy autobus jest darmowy",
+    "tokens": [
+      {
+        "pl": "Czy",
+        "en": "Is",
+        "phon": "iz",
+        "category": "grammar",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "pl": "autobus",
+        "en": "the bus",
+        "phon": "de bas",
+        "category": "transport",
+        "tags": [
+          "bus"
+        ]
+      },
+      {
+        "pl": "darmowy",
+        "en": "free",
+        "phon": "fri",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Is the bus free?",
+    "answerPhon": "iz de bas fri?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę zapłacić kartą",
+    "tokens": [
+      {
+        "pl": "Czy mogę",
+        "en": "Can I",
+        "phon": "ken aj",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "zapłacić kartą",
+        "en": "pay by card",
+        "phon": "pej baj kard",
+        "category": "money",
+        "tags": [
+          "payment"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I pay by card?",
+    "answerPhon": "ken aj pej baj kard?",
+    "category": "money",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Czy mogę wejść do muzeum",
+    "tokens": [
+      {
+        "pl": "Czy mogę",
+        "en": "Can I",
+        "phon": "ken aj",
+        "category": "phrases",
+        "tags": [
+          "polite"
+        ]
+      },
+      {
+        "pl": "wejść",
+        "en": "enter",
+        "phon": "enter",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "muzeum",
+        "en": "the museum",
+        "phon": "de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Can I enter the museum?",
+    "answerPhon": "ken aj enter de mjuzijem?",
+    "category": "museum",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje wycieczka",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "wycieczka",
+        "en": "the tour",
+        "phon": "de tur",
+        "category": "travel",
+        "tags": [
+          "tour"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is the tour?",
+    "answerPhon": "hał macz iz de tur?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Jak dojdę do apteka",
+    "tokens": [
+      {
+        "pl": "Jak dojdę",
+        "en": "How do I get",
+        "phon": "hał du aj get",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "do apteka",
+        "en": "to a pharmacy",
+        "phon": "tu e farmasy",
+        "category": "travel",
+        "tags": [
+          "pharmacy"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How do I get to a pharmacy?",
+    "answerPhon": "hał du aj get tu e farmasy?",
+    "category": "directions",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Jak dojdę do muzeum",
+    "tokens": [
+      {
+        "pl": "Jak dojdę",
+        "en": "How do I get",
+        "phon": "hał du aj get",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "to the museum",
+        "phon": "tu de mjuzijem",
+        "category": "museum",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How do I get to the museum?",
+    "answerPhon": "hał du aj get tu de mjuzijem?",
+    "category": "directions",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Jak dojdę do restauracja",
+    "tokens": [
+      {
+        "pl": "Jak dojdę",
+        "en": "How do I get",
+        "phon": "hał du aj get",
+        "category": "travel",
+        "tags": [
+          "directions"
+        ]
+      },
+      {
+        "pl": "do restauracja",
+        "en": "to the restaurant",
+        "phon": "tu de restorant",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How do I get to the restaurant?",
+    "answerPhon": "hał du aj get tu de restorant?",
+    "category": "directions",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Ile to zajmie z hotelu do muzeum",
+    "tokens": [
+      {
+        "pl": "Ile to zajmie",
+        "en": "How long does it take",
+        "phon": "hał long daz it tejk",
+        "category": "travel",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "pl": "z hotelu",
+        "en": "from the hotel",
+        "phon": "from de hołtel",
+        "category": "travel",
+        "tags": [
+          "hotel"
+        ]
+      },
+      {
+        "pl": "do muzeum",
+        "en": "to the museum",
+        "phon": "tu de mjuzijem",
+        "category": "travel",
+        "tags": [
+          "museum"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How long does it take from the hotel to the museum?",
+    "answerPhon": "hał long daz it tejk from de hołtel tu de mjuzijem?",
+    "category": "directions",
+    "level": 3
+  },
+  {
+    "pl": "Zadaj pytanie: Czy macie opcje wegetariańskie",
+    "tokens": [
+      {
+        "pl": "Czy macie",
+        "en": "Do you have",
+        "phon": "du ju hav",
+        "category": "phrases",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "opcje wegetariańskie",
+        "en": "vegetarian options",
+        "phon": "wedżeterian opszync",
+        "category": "food",
+        "tags": [
+          "restaurant"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "Do you have vegetarian options?",
+    "answerPhon": "du ju hav wedżeterian opszync?",
+    "category": "food",
+    "level": 2
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
+  },
+  {
+    "pl": "Zadaj pytanie: Ile kosztuje bilet",
+    "tokens": [
+      {
+        "pl": "Ile kosztuje",
+        "en": "How much is",
+        "phon": "hał macz iz",
+        "category": "money",
+        "tags": [
+          "price"
+        ]
+      },
+      {
+        "pl": "bilet",
+        "en": "a ticket",
+        "phon": "e tiket",
+        "category": "transport",
+        "tags": [
+          "ticket"
+        ]
+      },
+      {
+        "pl": "?",
+        "en": "?",
+        "phon": ""
+      }
+    ],
+    "answerEn": "How much is a ticket?",
+    "answerPhon": "hał macz iz e tiket?",
+    "category": "transport",
+    "level": 1
   }
 ]
